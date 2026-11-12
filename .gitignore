@@ -1,0 +1,18 @@
+# Generated CAD output (regenerate with case/scripts/unoq_case.py)
+case/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Slicer output
+*.gcode
+*.bgcode
+
+# Local tool settings and OS noise
+.claude/settings.local.json
+Thumbs.db
+desktop.ini
+.DS_Store

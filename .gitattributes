@@ -1,0 +1,12 @@
+# Text files: always LF, in the repo and in every checkout, on any OS.
+* text=auto eol=lf
+
+# CAD exchange files are text, but frozen revisions must stay byte-exact.
+# Never convert line endings, and do not try to diff them.
+*.step -text -diff
+*.stp  -text -diff
+
+# Binary assets.
+*.stl binary
+*.png binary
+*.3mf binary
